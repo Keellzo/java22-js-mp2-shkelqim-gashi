@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/logic.js" defer></script>
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-item">
+        <h1>Rock-Paper-Scissors</h1>
+        <h3>FIRST TO THREE WINS</h3>
+        <div id="score"></div>
+        <div id="result"></div>
+      </div>
+
+      <form class="flex-item">
+        <label for="playerName">Enter your name:</label>
+        <input type="text" id="playerName" name="playerName" />
+        <button type="button" class="button-start" id="startBtn">
+          Start game!
+        </button>
+        <div id="welcome"></div>
+      </form>
+
+      <form class="flex-item">
+        <button id="rockBtn" class="game-button">
+          <img src="images/rock.png" class="logo-img" alt="Button Image" />
+        </button>
+        <button id="paperBtn" class="game-button">
+          <img src="images/paper.png" class="logo-img"
+        </button>
+        <button id="scissorsBtn" class="game-button">
+          <img src="images/scissors.png" class="logo-img"
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
